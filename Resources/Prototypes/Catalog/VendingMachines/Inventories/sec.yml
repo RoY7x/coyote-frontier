@@ -25,6 +25,7 @@
     ContrabandAppraisalTool: 1 # Frontier
     ClothingOuterHardsuitSecurity: 1 # Coyote
     ClothingShoesBootsMagSecurity: 1 # Coyote
+    EncryptionKeySecurity: 5 #Coyote
 #    RadioHandheldSecurity: 5 # Frontier
   # security officers need to follow a diet regimen!
   # contrabandInventory: # Frontier
