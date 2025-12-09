@@ -417,16 +417,20 @@
   - type: Envelope
   - type: ContainerContainer
     containers:
-      letter_slot: !type:ContainerSlot
-  - type: ItemSlots
-    slots:
-      letter_slot:
-        name: envelope-letter-slot
-        insertSound: /Audio/Effects/packetrip.ogg
-        ejectSound: /Audio/Effects/packetrip.ogg
-        whitelist:
-          tags:
-            - Paper
+      storagebase: !type:Container
+  - type: Storage
+    maxItemSize: Small
+    grid:
+    - 0,0,2,0
+ # - type: ItemSlots
+ #   slots:
+ #     letter_slot:
+ #       name: envelope-letter-slot
+ #       insertSound: /Audio/Effects/packetrip.ogg
+ #       ejectSound: /Audio/Effects/packetrip.ogg
+ #       whitelist:
+ #         tags:
+ #           - Paper
   - type: ActivatableUI
     key: enum.PaperUiKey.Key
     requiresComplex: false
@@ -434,10 +438,13 @@
     interfaces:
       enum.PaperUiKey.Key:
         type: PaperBoundUserInterface
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
   - type: Item
     size: Tiny
   - type: Tag
     tags:
+    - Envelope
     - Trash
     - Document
   #- type: Appearance, hide stamp marks until we have some kind of displacement
