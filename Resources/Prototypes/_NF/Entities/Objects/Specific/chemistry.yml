@@ -129,6 +129,7 @@
       - Bottle
       - CentrifugeCompatible # Vial > CentrifugeCompatible
       - Syringe
+      - PillCanister
       components:
       - Hypospray
 
