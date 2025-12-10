@@ -132,6 +132,9 @@
       - PillCanister
       components:
       - Hypospray
+    blacklist:
+      components:
+      - Needs # dummy thing that'll never ever be on an item
 
 - type: entity
   name: corpsman's medical pouch

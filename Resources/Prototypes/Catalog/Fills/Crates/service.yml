@@ -169,6 +169,8 @@
     - id: BoxEnvelope
     - id: BrbSign
     - id: RubberStampCaptain # Frontier
+    - id: DeskBell
+    - id: PaperBin
 
 - type: entity
   id: CrateServiceFaxMachine
