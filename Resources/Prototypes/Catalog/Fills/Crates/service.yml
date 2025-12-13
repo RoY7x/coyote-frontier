@@ -168,6 +168,7 @@
     - id: NewtonCradle
     - id: BoxEnvelope
     - id: BrbSign
+    - id: OpenSign
     - id: RubberStampCaptain # Frontier
     - id: DeskBell
     - id: PaperBin
